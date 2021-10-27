@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/scrpt.js"></script>
+    <script src="https://kit.fontawesome.com/58b1b53cd3.js" crossorigin="anonymous"></script>
+</head>
+<body background="images/rain.jpg">
+    <div class="container">
+        
+<form id="search-form">
+    <input type="text" placeholder="Enter your location" id="city-input">
+    <input type="submit" value="Go!">
+</form>
+   
+  <div class="current-weather">
+    <div class="card">
+    <div class="card-body">
+   
+ 
+    <h1 id="city">
+        London
+    </h1>
+    <h2 id = "date">
+      Thursday 15:30
+
+    </h2>
+    <h3>
+      <span class="tempreture" id="tempreture">10</span>
+      <span class="units"> <a href="#" id="celsius-link"> °C|</a> <a href="#" id="fahrenheit-link"> °F</a></span>   
+    </h3>
+    <h4>
+        Rainy
+    </h4>
+    <i class="fas fa-cloud-showers-heavy"></i>
+  </div>
+    </div>
+      </div>
+        </div>
+
+<div class="forecast">
+  <div class="card">
+    <div class="card-body">
+<p>
+    Next five hours
+</p>
+
+<div class="row">
+    <div class="col">
+      10°
+    </div>
+    <div class="col">
+      11°
+    </div>
+    <div class="col">
+      13°
+    </div>
+    <div class="col">
+      14°
+    </div>
+    <div class="col">
+      13°
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <i class="fas fa-cloud-showers-heavy"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud-showers-heavy"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud-moon-rain"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud-moon"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud-moon"></i>
+    </div>
+  </div>
+
+  <br>
+  <br>
+<p>
+    Next five days
+</p>
+<div class="row">
+    <div class="col">
+      15°
+    </div>
+    <div class="col">
+      18°
+    </div>
+    <div class="col">
+      17°
+    </div>
+    <div class="col">
+      11°
+    </div>
+    <div class="col">
+      13°
+    </div>
+  </div>
+
+   <div class="row">
+    <div class="col">
+      <i class="fas fa-cloud-showers-heavy"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-sun"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-smog"></i>
+    </div>
+    <div class="col">
+      <i class="fas fa-cloud-sun"></i>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+    
+</body>
+</html>
