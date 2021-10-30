@@ -1,13 +1,8 @@
 h1 {
   text-align: center;
   font-size: 18px;
-  font-weight: 300;
-}
-
-h2 {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 300;
+  font-weight: 450;
+  color: black;
 }
 
 h3 {
@@ -29,13 +24,13 @@ h4 {
 form {
   text-align: center;
   position: relative;
-  top: 20px;
+  margin-top: 20px;
 }
 
 .current-weather {
   text-align: center;
   position: relative;
-  top: 50px;
+  margin-top: 50px;
 }
 
 .units {
@@ -44,7 +39,14 @@ form {
 
 .forecast {
   position: relative;
-  top: 70px;
+  margin-top: 70px;
   text-align: center;
   font-weight: 300;
+}
+
+.footnote {
+  color: lightblue;
+  font-size: 13px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
